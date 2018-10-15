@@ -15,6 +15,6 @@ public class hiController {
     String message;
     @RequestMapping(value = "/foo")
     public String hi() {
-        return foo + " " + message;
+        return foo + ": " + message;
     }
 }
